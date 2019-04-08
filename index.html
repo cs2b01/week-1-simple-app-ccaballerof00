@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
-</head>
-
-<body>
-Content of the document......
-</body>
-
+	<head>
+	<title> LOGIN </title>
+	LOGIN <br> </head>
+	<body>
+	<input type="text" id="us"/>
+	<input type="password" id="pass"/>
+	<input type="button" onclick="login()" id="but"/>
+	<script> 
+	function login()
+			{
+			var user=document.getElementById("us");
+			var passw=document.getElementById("pass");
+			if(user.value==passw.value){alert("pudiste logear")};
+			};
+	</script>
+	</body>
 </html>
+
